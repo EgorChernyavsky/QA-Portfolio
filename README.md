@@ -5,7 +5,7 @@
  - Проанализировать требования на валидацию полей ввода часов, минут и адресов.
  - Декомпозироавть логику полей формы составив таблицу.
 #### 2. Спроектировать тесты на проверку валидации полей
- - Выделить классы эквивалентности и граничные значения для полей «Время начала поездки», "Откуда", "Куда".
+ - Выделить классы эквивалентности и граничные значения для полей "Время начала поездки", "Откуда", "Куда".
  - Выбрать тестовые значения, которые проверят каждый класс и границы, если они есть.
  - Создать набор тест-кейсов на основе тестовых значений.
 #### 3. Протестировать валидацию полей и завести баг-репорты
@@ -18,10 +18,10 @@
  - [Декомпозиция логики полей формы](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1610041137#gid=1610041137&range=A3:C27)
 #### 2. Проектирование тестов на проверку валидации полей
 Классы эквивалентности и граничные значения
- - #### [Поле ввода часов](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A28:F40)
- - #### [Поле ввода минут](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A42:F54)
- - #### [Поле ввода адреса "Откуда"](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A56:F64)
- - #### [Поле ввода адреса "Куда"](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A66:F74)
+ - [Поле ввода часов](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A28:F40)
+ - [Поле ввода минут](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A42:F54)
+ - [Поле ввода адреса "Откуда"](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A56:F64)
+ - [Поле ввода адреса "Куда"](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A66:F74)
 Проверки на основе тестовых значений
  - [Тест-кейсы](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1524919368#gid=1524919368&range=A2:I65)
 #### 3. Тестирование и заведение баг-репортов. Подведение итогов
@@ -48,8 +48,8 @@
  - [Декомпозиция логики расчёта времени и стоимости маршрута](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1610041137#gid=1610041137&range=A29:C36)
 #### 2. Проектирование тестов на проверку валидации полей
 Классы эквивалентности и граничные значения
- - #### [Расстояние между адресами](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A76:F78)
- - #### [Время начала движения](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A79:F83)
+ - [Расстояние между адресами](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A76:F78)
+ - [Время начала движения](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A79:F83)
 Проверки на основе тестовых значений
  - [Тест-кейсы](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1524919368#gid=1524919368&range=A66:I72)
 #### 3. Тестирование и заведение баг-репортов. Подведение итогов
