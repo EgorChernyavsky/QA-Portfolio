@@ -169,7 +169,7 @@ if [os] = "Windows10" OR [os] = "Windows11"
 then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" AND [browser] <> "Safari26.4";
 Число тестовых окружений уменьшилось до 54 (см. таблицу "Конфигурации браузеров, ОС и разрешений").
 
-#### <details>
+<details>
 <summary>Конфигурации браузеров, ОС и разрешений</summary>
 
 | №|    OC     |  Браузер   | Разрешение |
@@ -230,11 +230,6 @@ then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" A
 |54| MacOS1015 | Safari26.4 |  1920x1080 |
 
 </details>
-
-
-
-
-
 
 3. Тестовая документация для вёрстки
 
