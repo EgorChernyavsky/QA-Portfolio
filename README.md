@@ -156,8 +156,12 @@
 
 Нужно покрыть тестами все комбинации ОС, браузеров и разрешений. Для уменьшения количества проверок применим попарное тестирование и автоматизируем подбор пар с помощью сервиса [pairwise](https://pairwise.yuuniworks.com).
 
-Входные данные:
+<details>
+<summary>Входные данные</summary>
 
+<div style="position: relative;">
+<button onclick="copyText()" style="position: absolute; top: 5px; right: 5px; background: #007acc; color: white; border: none; padding: 2px 6px; font-size: 12px; cursor: pointer;">Копировать</button>
+<pre id="textToCopy">
 os: Windows10, Windows11, macOs1014, macOs1015
 browser: Yandex26.5, Yandex26.4, Chrome148, Chrome147, Edge148, Edge147, Opera132, Opera130, Firefox151, Firefox150, Atom5.11, Atom5.12,  IE11, IE10, Safari26.5, Safari26.4
 size: 800600, 1280720, 19201080
@@ -167,10 +171,22 @@ then [browser] <> "IE11" AND [browser] <> "IE10";
 
 if [os] = "Windows10" OR [os] = "Windows11"
 then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" AND [browser] <> "Safari26.4";
-Число тестовых окружений уменьшилось до 54 (см. таблицу "Конфигурации браузеров, ОС и разрешений").
+</pre>
+</div>
+
+<script>
+function copyText() {
+    const text = document.getElementById("textToCopy").innerText;
+    navigator.clipboard.writeText(text).then(() => {
+        alert("Текст скопирован");
+    });
+}
+</script>
+
+</details>
 
 <details>
-<summary>Конфигурации браузеров, ОС и разрешений</summary>
+<summary>Конфигурации ОС, браузеров и разрешений</summary>
 
 | №|    OC     |  Браузер   | Разрешение |
 |:-| :-------- | :--------- | :--------- |
