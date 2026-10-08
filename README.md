@@ -169,19 +169,72 @@ if [os] = "Windows10" OR [os] = "Windows11"
 then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" AND [browser] <> "Safari26.4";
 Число тестовых окружений уменьшилось до 54 (см. таблицу "Конфигурации браузеров, ОС и разрешений").
 
-### Конфигурации браузеров, ОС и разрешений
+#### <details>
+<summary>Конфигурации браузеров, ОС и разрешений</summary>
+
 | №|    OC     |  Браузер   | Разрешение |
 |:-| :-------- | :--------- | :--------- |
-|1 | Windows10 | Firefox150 |  1280x720  |
-|2 | Windows10 | Firefox151 |  800x600   |
-|3 | Windows10 | Atom5.12   |  1920x1080 |
-|4 | Windows10 | Edge148    |  800x600   |
-|5 | Windows10 | Yandex26.5 |  1920x1080 |
-|6 | Windows10 | Opera130   |  1920x1080 |
-|7 | Windows10 | Edge147    |  800x600   |
-|8 | Windows10 | Opera130   |  800x600   |
-|9 | Windows10 | Chrome147  |  1920x1080 |
-|10| Windows10 | Yandex26.4 |  800x600   |
+|1 | Windows10 | Yandex26.5 |  1920x1080 |
+|2 | Windows10 | Yandex26.4 |  800x600   |
+|3 | Windows10 | Chrome148  |  800x600   |
+|4 | Windows10 | Chrome147  |  1920x1080 |
+|5 | Windows10 | Edge148    |  800x600   |
+|6 | Windows10 | Edge147    |  800x600   |
+|7 | Windows10 | Opera132   |  800x600   |
+|8 | Windows10 | Opera130   |  1920x1080 |
+|9 | Windows10 | Firefox151 |  800x600   |
+|10| Windows10 | Firefox150 |  1280x720  |
+|11| Windows10 | Atom5.12   |  1920x1080 |
+|12| Windows10 | Atom5.11   |  800x600   |
+|13| Windows11 | Yandex26.5 |  1280x720  |
+|14| Windows11 | Yandex26.4 |  1280x720  |
+|15| Windows11 | Chrome148  |  800x600   |
+|16| Windows11 | Chrome147  |  1280x720  |
+|17| Windows11 | Edge148    |  1920x1080 |
+|18| Windows11 | Edge147    |  1280x720  |
+|19| Windows11 | Opera132   |  1280x720  |
+|20| Windows11 | Opera130   |  1280x720  |
+|21| Windows11 | Firefox151 |  1920x1080 |
+|22| Windows11 | Firefox150 |  1920x1080 |
+|23| Windows11 | Atom5.12   |  1920x1080 |
+|24| Windows11 | Atom5.11   |  800x600   |
+|25| MacOS1014 | Safari26.5 |  1280x720  |
+|26| MacOS1014 | Safari26.4 |  800x600   |
+|27| MacOS1014 | Chrome148  |  1920x1080 |
+|28| MacOS1014 | Chrome147  |  1280x720  |
+|29| MacOS1014 | Yandex26.5 |  800x600   |
+|30| MacOS1014 | Yandex26.4 |  1920x1080 |
+|31| MacOS1014 | Firefox151 |  1280x720  |
+|32| MacOS1014 | Firefox150 |  800x600   |
+|33| MacOS1014 | Opera132   |  1920x1080 |
+|34| MacOS1014 | Opera130   |  800x600   |
+|35| MacOS1014 | Edge148    |  1280x720  |
+|36| MacOS1014 | Edge147    |  1920x1080 |
+|37| MacOS1014 | Atom5.12   |  1280x720  |
+|38| MacOS1014 | Atom5.11   |  1280x720  |
+|39| MacOS1015 | Safari26.5 |  800x600   |
+|40| MacOS1015 | Safari26.4 |  1280x720  |
+|41| MacOS1015 | Chrome148  |  1280x720  |
+|42| MacOS1015 | Chrome147  |  800x600   |
+|43| MacOS1015 | Yandex26.5 |  1920x1080 |
+|44| MacOS1015 | Yandex26.4 |  1920x1080 |
+|45| MacOS1015 | Firefox151 |  1280x720  |
+|46| MacOS1015 | Firefox150 |  1280x720  |
+|47| MacOS1015 | Opera132   |  1280x720  |
+|48| MacOS1015 | Opera130   |  1920x1080 |
+|49| MacOS1015 | Edge148    |  1280x720  |
+|50| MacOS1015 | Edge147    |  1280x720  |
+|51| MacOS1015 | Atom5.12   |  800x600   |
+|52| MacOS1015 | Atom5.11   |  1920x1080 |
+|53| MacOS1015 | Safari26.5 |  1920x1080 |
+|54| MacOS1015 | Safari26.4 |  1920x1080 |
+
+</details>
+
+
+
+
+
 
 3. Тестовая документация для вёрстки
 
