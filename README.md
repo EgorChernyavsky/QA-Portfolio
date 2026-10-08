@@ -156,12 +156,8 @@
 
 Нужно покрыть тестами все комбинации ОС, браузеров и разрешений. Для уменьшения количества проверок применим попарное тестирование и автоматизируем подбор пар с помощью сервиса [pairwise](https://pairwise.yuuniworks.com).
 
-<details>
-<summary>Входные данные</summary>
-
-<div style="position: relative;">
-<button onclick="copyText()" style="position: absolute; top: 5px; right: 5px; background: #007acc; color: white; border: none; padding: 2px 6px; font-size: 12px; cursor: pointer;">Копировать</button>
-<pre id="textToCopy">
+Входные параметры:
+```
 os: Windows10, Windows11, macOs1014, macOs1015
 browser: Yandex26.5, Yandex26.4, Chrome148, Chrome147, Edge148, Edge147, Opera132, Opera130, Firefox151, Firefox150, Atom5.11, Atom5.12,  IE11, IE10, Safari26.5, Safari26.4
 size: 800600, 1280720, 19201080
@@ -171,19 +167,7 @@ then [browser] <> "IE11" AND [browser] <> "IE10";
 
 if [os] = "Windows10" OR [os] = "Windows11"
 then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" AND [browser] <> "Safari26.4";
-</pre>
-</div>
-
-<script>
-function copyText() {
-    const text = document.getElementById("textToCopy").innerText;
-    navigator.clipboard.writeText(text).then(() => {
-        alert("Текст скопирован");
-    });
-}
-</script>
-
-</details>
+```
 
 <details>
 <summary>Конфигурации ОС, браузеров и разрешений</summary>
@@ -247,6 +231,23 @@ function copyText() {
 
 </details>
 
-3. Тестовая документация для вёрстки
+#### 3. Тестовая документация для вёрстки интерфейса
 
-Чек-лист и результаты выполнения тестов: тестирование вёрстки и логики интерфейса
+[Чек-лист и результаты выполнения проверок](https://docs.google.com/spreadsheets/d/1e5cC66W9Dcy0O1PTM_xpG91rrTXxJ5jna_wTFOUWLUc/edit?gid=899462569#gid=899462569&range=A1)
+
+#### 4. Тестовая документация для логики интерфейса
+
+ - [Чек-лист](https://docs.google.com/spreadsheets/d/1e5cC66W9Dcy0O1PTM_xpG91rrTXxJ5jna_wTFOUWLUc/edit?gid=1540435533#gid=1540435533&range=A1:D1) на логику окон "Способ оплаты" и "Добавление карты"
+ - [Тест-кейсы](https://docs.google.com/spreadsheets/d/1e5cC66W9Dcy0O1PTM_xpG91rrTXxJ5jna_wTFOUWLUc/edit?gid=1567345705#gid=1567345705&range=A1) на кнопку "Забронировать"
+
+#### 5-6. Тестирование и заведение баг-репортов. Подведение итогов
+- Проведено тестирование вёрстки и пользовательского интерфейса сервиса "Маршруты". 
+- Выполнена проверка соответствия макетам и реализация фронтенда: работа полей ввода, панелей выбора режимов и видов транспорта, а также логика окон "Способ оплаты" и "Добавление карты" и функциональность кнопки "Забронировать".
+
+- В ходе проверки выявлено 45 дефектов. Из них 20 имеют критический приоритет. Также обнаружены ошибки с низким и незначительным приоритетом, негативно влияющие на удобство использования (UX) и репутацию продукта. Команда рекомендует исправить ошибки перед передачей продукта пользователям.
+
+ - Всего нашли 45 багов 
+ - Вот [ссылка](https://docs.google.com/spreadsheets/d/1e5cC66W9Dcy0O1PTM_xpG91rrTXxJ5jna_wTFOUWLUc/edit?gid=977751969#gid=977751969&range=A1) на баг-репорты
+
+ #### Тестирование мобильных приложений
+ 
