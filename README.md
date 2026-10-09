@@ -1,6 +1,10 @@
 # QA-Portfolio
-## Тестирование веб-приложения Маршруты/Фича
-### Задание/часть 1: тестирование валидации полей в форме
+<details>
+<summary>Тестирование веб-приложения Маршруты/Фича</summary>
+
+<details>
+<summary>Задание 1: тестирование валидации полей в форме</summary>
+
 #### 1. Визуализировать требования
  - Проанализировать требования на валидацию полей ввода часов, минут и адресов
  - Декомпозироавть логику полей формы составив таблицу
@@ -12,8 +16,11 @@
  - В процессе тестирования отметить результаты выполнения теста: PASSED или FAILED
   - Если тест со статусом FAILED, завести баг-репорт в гугл-таблице
 #### [Требования к сервису Маршруты](https://docs.google.com/document/d/1CiYmP0jye1pKvB6FSwkA5sDkcNYZ69UyU11CMI1Wctw/edit?usp=sharing)
+</details>
 
-### Решение
+<details>
+<summary>Решение</summary>
+
 #### 1. Визуализация требований
  - [Декомпозиция логики полей формы](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1610041137#gid=1610041137&range=A3:C27)
 #### 2. Проектирование тестов на проверку валидации полей
@@ -22,13 +29,17 @@
  - [Поле ввода минут](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A42:F54)
  - [Поле ввода адреса "Откуда"](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A56:F64)
  - [Поле ввода адреса "Куда"](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1304990855#gid=1304990855&range=A66:F74)
+
 Проверки на основе тестовых значений
  - [Тест-кейсы](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1524919368#gid=1524919368&range=A2:I65)
 #### 3. Тестирование и заведение баг-репортов
 Всего обнаружено 20 багов
  - Вот [ссылка](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=454479584#gid=454479584&range=A2:I21) на баг-репорты
+</details>
 
-### Задание/часть 2: тестирование расчёта стоимости и времени поездки
+<details>
+<summary>Задание 2: тестирование расчёта стоимости и времени поездки</summary>
+
 #### 1. Визуализировать требования
  - Проанализировать требования расчёта времени и стоимости маршрута на собственном автомобиле
  - Декомпозировать логику расчёта времени и стоимости маршрута составив таблицу
@@ -40,7 +51,11 @@
  - В процессе тестирования отметить результаты выполнения теста: PASSED или FAILED
   - Если тест со статусом FAILED, завести баг-репорт в в Google Таблицу
 #### [Требования к сервису Маршруты](https://docs.google.com/document/d/1CiYmP0jye1pKvB6FSwkA5sDkcNYZ69UyU11CMI1Wctw/edit?usp=sharing)
-### Решение
+</details>
+
+<details>
+<summary>Решение</summary>
+
 #### 1. Визуализация требований
  - [Декомпозиция логики расчёта времени и стоимости маршрута](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=1610041137#gid=1610041137&range=A29:C36)
 #### 2. Проектирование тестов на проверку валидации полей
@@ -53,8 +68,15 @@
 #### 3. Тестирование и заведение баг-репортов
 Всего обнаружено 2 бага
  - Вот [ссылка](https://docs.google.com/spreadsheets/d/1jMqll8IZeb6MZd6eN1KJK28WM19fxkmorreamYQzC4I/edit?gid=454479584#gid=454479584&range=A22:I23) на баг-репорты
-## Тестирование веб-приложения Маршруты/Расширенное тестирование
-### Задание
+</details>
+</details>
+
+<details>
+<summary>Тестирование веб-приложения Маршруты/Расширенное тестирование</summary>
+
+<details>
+<summary>Задание</summary>
+
 #### 1. Анализ требований
 
  - Изучить требования к сервису Маршруты
@@ -92,8 +114,14 @@
  - Подвести итоги тестирования: например, удалось провести все тесты и найти несколько багов. Приложить ссылки на них, чтобы коллеги могли их быстро открыть и посмотреть.
  - Сделать вывод: как думаешь, можно ли отдать такой продукт пользователям? Помнить, что тестировщик даёт рекомендации, а итоговое решение принимает команда менеджеров.
 #### [Требования 2.0 к сервису Маршруты](https://docs.google.com/document/d/1FmV0gCiuGD5EZvKk4K5U5w0Ah92Fe5daFHJaGGKKUmY/edit?usp=sharing)
-### Решение
-#### 1. Анализ требований
+</details>
+
+<details>
+<summary>Решение</summary>
+
+<details>
+<summary>1. Анализ требований</summary>
+ 
 Что изменилось в требованиях?
 
 Внесены следующие дополнения:
@@ -120,8 +148,10 @@
 Чем он пользуется?
 
 Компьютером или ноутбуком под управлением Windows 10,11 либо macOS 10.14,10.15, используя браузеры Yandex, Chrome, Edge, Opera, Firefox, Atom, IE или Safari последних и предпоследних версий. Разрешения экрана 800×600, 1280×720 либо 1920×1080.
+</details>
 
-#### 2. Выбор конфигураций для кроссбраузерного тестирования
+<details>
+<summary>2. Выбор конфигураций для кроссбраузерного тестирования</summary>
 
 Сервис поддерживает:
 
@@ -228,6 +258,7 @@ then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" A
 |54| MacOS1015 | Safari26.4 |  1920x1080 |
 
 </details>
+</details>
 
 #### 3. Тестовая документация для вёрстки интерфейса
 
@@ -246,9 +277,14 @@ then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" A
 
  - Всего нашли 45 багов 
  - Вот [ссылка](https://docs.google.com/spreadsheets/d/1e5cC66W9Dcy0O1PTM_xpG91rrTXxJ5jna_wTFOUWLUc/edit?gid=977751969#gid=977751969&range=A1) на баг-репорты
+</details>
+</details>
 
- ## Тестирование мобильного приложения Метро
-### Задание
+<details>
+<summary>Тестирование мобильного приложения Метро</summary>
+
+<details>
+<summary>Задание</summary>
 
 #### 1. Провести анализ требований к мобильному приложению Метро
 #### 2. Разработать чек-лист для проведения тестирования на основе требований, выделенных полужирным шрифтом
@@ -256,7 +292,11 @@ then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" A
 #### 4. Выполнить тестирование мобильного приложения в эмуляторе с помощью Android Studio и завести баг-репорты в Google Таблицу 
 #### 5. Подготовить отчет о тестировании
 #### [Требования к мобильному приложению Метро](https://docs.google.com/document/d/1xshltciCwXPYInKNsYCOXU3peHa8ePOa9ntkA3u6zok/edit?usp=sharing)
-### Решение
+</details>
+
+<details>
+<summary>Решение</summary>
+
 #### 1/2. Тестовая документация: функциональное тестирование
  - [Чек-лист](https://docs.google.com/spreadsheets/d/1buLf_5diG87XFjTViHrw8ANDMLabxGokKtiC9jEQvQE/edit?gid=899462569#gid=899462569&range=A1) проверки требований, затронутых изменениями
 #### 1/3. Тестовая документация: регрессионное тестирование
@@ -267,14 +307,25 @@ then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" A
  - [Регрессионное тестирование](https://docs.google.com/spreadsheets/d/1buLf_5diG87XFjTViHrw8ANDMLabxGokKtiC9jEQvQE/edit?gid=1540435533#gid=1540435533&range=A1)
  - [Ссылка](https://docs.google.com/spreadsheets/d/1buLf_5diG87XFjTViHrw8ANDMLabxGokKtiC9jEQvQE/edit?gid=667530685#gid=667530685&range=A1) на баг-репорты
  - [Ссылка](https://docs.google.com/document/d/1K5nGv9Ouyfojdcxlxfzo7h85GEnGZzlYfXjTNYoH7PE/edit?usp=sharing) на отчёт о тестировании Метро 
- ## Тестирование API Прилавка
- ### Задание
- #### 1. Проанализировать требования к новой функциональности бэкенда. Изучить документацию к API в Apidoc
+</details>
+</details>
+
+<details>
+<summary>Тестирование API Прилавка</summary>
+
+<details>
+<summary>Задание</summary>
+
+#### 1. Проанализировать требования к новой функциональности бэкенда. Изучить документацию к API в Apidoc
 #### 2. Разработать чек-лист для проведения тестирования на основе требований, выделенных полужирным шрифтом
 #### 3. Выполнить тестирование API через Postman и завести баг-репорты в Google Таблицу 
 #### 4. Написать отчет о тестировании
 #### [Требования к бэкенду приложения API Прилавка]()
-### Решение
+</details>
+
+<details>
+<summary>Решение</summary>
+
 #### 1-2. Тестовая документация: новая функциональность API
  - [Чек-лист](https://docs.google.com/spreadsheets/d/1VLImydWsU0ZgQS16FDUmf8CvO_Drzerjrk2TxVSaJ5M/edit?gid=2006427015#gid=2006427015&range=A2) проверки требований, затронутых изменениями
 #### 3-4. Тестирование и заведение баг-репортов. Подведение итогов 
@@ -282,9 +333,17 @@ then [browser] <> "IE11" AND [browser] <> "IE10" AND [browser] <> "Safari26.5" A
  - [Тестирование фичи API](https://docs.google.com/spreadsheets/d/1VLImydWsU0ZgQS16FDUmf8CvO_Drzerjrk2TxVSaJ5M/edit?gid=2006427015#gid=2006427015&range=A2)
  - [Ссылка](https://docs.google.com/spreadsheets/d/1VLImydWsU0ZgQS16FDUmf8CvO_Drzerjrk2TxVSaJ5M/edit?gid=1727683287#gid=1727683287&range=A1) на баг-репорты
  - [Ссылка](https://docs.google.com/document/d/1tQZ4pMqYDtOIF2JpMgM3pw5WeJL8A12BwCMYDz0OIlA/edit?usp=sharing) на отчёт о тестировании API Прилавка
- ## Работа с реляционными базами данных
+</details>
+</details>
+
+<details>
+<summary>Работа с реляционными базами данных</summary>
+
 #### [Описание базы данных](https://docs.google.com/document/d/1gU1DZFrhmjNxecHddcLXMMs4ctQEerZ5Qc92yt6sobE/edit?usp=sharing)
-### Задание 1
+
+<details>
+<summary>Задание 1</summary>
+### 
 Вывести объем привлеченных средств для стартапов категории "news" в регионе "USA", отсортировав лидеров по бюджету.
 ### Решение 
 Примененить фильтрацию (WHERE) по двум атрибутам одновременно и отсортировать (ORDER BY) по убыванию
@@ -294,7 +353,11 @@ FROM company
 WHERE category_code = 'news' AND country_code = 'USA'
 ORDER BY funding_total DESC;
 ```
-### Задание 2
+</details>
+
+<details>
+<summary>Задание 2</summary>
+
 Найти всех сотрудников, чьи названия аккаунтов начинаются на строку ('Silver')
 ### Решение
 Использовать оператор LIKE с символом % в конце шаблона для поиска по началу строки
@@ -305,7 +368,11 @@ network_username
 FROM people
 WHERE network_username LIKE 'Silver%';
 ```
-### Задание 3
+</details>
+
+<details>
+<summary>Задание 3</summary>
+
 Выбрать людей, у которых в названии аккаунта есть подстрока "money", а фамилия начинается на букву "K"
 ### Решение
 Комбинировать условия LIKE '%...%' (поиск внутри строки) и LIKE '...'%' (поиск по началу строки) через оператор AND
@@ -315,7 +382,11 @@ FROM people
 WHERE network_username LIKE '%money%' 
 AND last_name LIKE 'K%';
 ```
-### Задание 4
+</details>
+
+<details>
+<summary>Задание 4</summary>
+
 Отобразить общую сумму привлеченных инвестиций, которые получили компании, зарегистрированные в этой стране
 ### Решение
 Группировка (GROUP BY) по коду страны с применением агрегатной функции SUM, отсортировав результат по вычисляемому полю
@@ -326,7 +397,11 @@ FROM company
 GROUP BY country_code
 ORDER BY total_investment DESC;
 ```
-### Задание 5
+</details>
+
+<details>
+<summary>Задание 5</summary>
+
 Получить полный список персонала с указанием учебного заведения, если данные об образовании присутствуют
 ### Решение
 Использовать LEFT OUTER JOIN для сохранения всех записей из основной таблицы (people) при подтягивании связанных данных из справочника (education)
@@ -337,17 +412,25 @@ e.institution AS educational_institution
 FROM people AS p
 LEFT JOIN education AS e ON p.id = e.person_id;
 ```
-### Задание 6
+</details>
+
+<details>
+<summary>Задание 6</summary>
+
 Подсчитать общий объем сделок типа "Cash-only" за 2011–2013 годы
 ### Решение
-Фильтрация (WHERE) по атрибуту 'cash',приведение типов даты (CAST), фильтрация диапазона дат (BETWEEN) и агрегация суммы (SUM)
+Фильтрация (WHERE) по атрибуту 'cash', приведение типов даты (CAST), фильтрация диапазона дат (BETWEEN) и агрегация суммы (SUM)
 ```
 SELECT SUM(price_amount) AS total_cash_acquisitions
 FROM acquisition
 WHERE term_code = 'cash'
 AND CAST(acquired_at AS DATE) BETWEEN '2011-01-01' AND '2013-12-31';
 ```
-### Задание 7
+</details>
+
+<details>
+<summary>Задание 7</summary>
+
 Определить топ-10 стран с наиболее активными фондами (основание 2010–2012), исключив страны с нулевой активностью. 
 
 Для каждой страны посчитать минимальное, максимальное и среднее число компаний, в которые инвестировали фонды этой страны. Отсортировать таблицу по среднему количеству компаний от большего к меньшему. Добавь сортировку по коду страны в лексикографическом порядке.
@@ -365,3 +448,5 @@ HAVING MIN(invested_companies) > 0
 ORDER BY AVG(invested_companies) DESC, country_code ASC
 LIMIT 10;
 ```
+</details>
+</details>
